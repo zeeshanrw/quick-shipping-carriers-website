@@ -19,7 +19,7 @@ export const SERVICES: Service[] = [
     id: 'ftl',
     title: 'Full Truckload (FTL)',
     description: 'Your shipment, your truck. Direct, fast, and secure delivery for large loads, ensuring your freight arrives as a single, dedicated unit.',
-    icon: '🚛',
+    icon: 'truck',
     benefits: [
       'Dedicated vehicle assigned to your shipment',
       'Single pickup and delivery point',
@@ -30,7 +30,7 @@ export const SERVICES: Service[] = [
     id: 'ltl',
     title: 'Less-than-Truckload (LTL)',
     description: 'Cost-effective shipping for smaller freight. By sharing truck space with other shipments, you only pay for the space you use.',
-    icon: '📦',
+    icon: 'package',
     benefits: [
       'Shared truck space reduces costs',
       'Pay only for space used',
@@ -41,7 +41,7 @@ export const SERVICES: Service[] = [
     id: 'flatbed',
     title: 'Flatbed',
     description: 'Versatile solutions for freight that is oversized, heavy, or unconventionally shaped. We handle the unique demands of your cargo.',
-    icon: '🏗️',
+    icon: 'flatbed',
     benefits: [
       'Specialized handling for oversized cargo',
       'Heavy equipment and machinery transport',
@@ -52,7 +52,7 @@ export const SERVICES: Service[] = [
     id: 'reefer',
     title: 'Temperature Controlled (Reefer)',
     description: 'Protecting your perishable and sensitive goods with our modern, refrigerated "reefer" fleet. We ensure product integrity from start to finish.',
-    icon: '❄️',
+    icon: 'snowflake',
     benefits: [
       'Precise temperature control maintained',
       'Perishable goods protection',
@@ -63,7 +63,7 @@ export const SERVICES: Service[] = [
     id: 'expedited',
     title: 'Expedited',
     description: 'When time is critical. We provide guaranteed on-time delivery for your most urgent shipments with dedicated vehicles and team drivers.',
-    icon: '⚡',
+    icon: 'zap',
     benefits: [
       'Guaranteed on-time delivery',
       'Dedicated drivers and vehicles',
@@ -74,7 +74,7 @@ export const SERVICES: Service[] = [
     id: 'warehousing',
     title: 'Warehousing & Distribution',
     description: 'Storage and fulfillment solutions tailored to your logistics needs. From short-term storage to full supply chain management.',
-    icon: '🏭',
+    icon: 'warehouse',
     benefits: [
       'Secure climate-controlled storage',
       'Order fulfillment and picking',
