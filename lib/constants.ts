@@ -85,19 +85,19 @@ export const SERVICES: Service[] = [
 
 export const TRUST_PILLARS = [
   {
-    icon: '🛡️',
-    title: 'Safe',
-    description: 'Industry-leading safety record and protocols',
+    icon: "ShieldCheck",
+    title: "Safe",
+    description: "Industry-leading safety record and protocols",
   },
   {
-    icon: '✅',
-    title: 'Reliable',
-    description: 'On-time delivery guaranteed',
+    icon: "BadgeCheck",
+    title: "Reliable",
+    description: "On-time delivery guaranteed",
   },
   {
-    icon: '⚡',
-    title: 'Fast',
-    description: 'Real-time tracking & updates',
+    icon: "Zap",
+    title: "Fast",
+    description: "Real-time tracking & updates",
   },
 ];
 
