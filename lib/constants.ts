@@ -1,4 +1,10 @@
 import { Service, Testimonial } from './types';
+import { FleetVehicle } from './types';
+
+
+
+
+
 
 export const COMPANY = {
   name: 'Quick Shipping Carriers',
@@ -164,5 +170,37 @@ export const CONTACT_METHODS = [
     value: COMPANY.address,
     href: 'https://maps.google.com',
     icon: '📍',
+  },
+];
+
+
+export const FLEET: FleetVehicle[] = [
+  {
+    id: 'straight-truck',
+    type: 'Straight Trucks',
+    count: 15,
+    capacity: 'Up to 10,000 lbs',
+    image: '',
+  },
+  {
+    id: 'tractor-trailer',
+    type: 'Tractor-Trailers',
+    count: 25,
+    capacity: 'Up to 45,000 lbs',
+    image: '',
+  },
+  {
+    id: 'flatbed-fleet',
+    type: 'Flatbeds',
+    count: 10,
+    capacity: 'Oversized & heavy freight',
+    image: '',
+  },
+  {
+    id: 'reefer-fleet',
+    type: 'Reefer (Temperature Controlled)',
+    count: 12,
+    capacity: 'Perishable & sensitive goods',
+    image: '',
   },
 ];
